@@ -7,6 +7,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+include/
 env/
 bin/
 build/
@@ -21,6 +22,12 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.idea
+.idea/
+
+#ignore local data files
+*.txt
+*.json
 
 # Installer logs
 pip-log.txt
